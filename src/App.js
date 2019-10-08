@@ -38,7 +38,7 @@ class App extends Component {
   };
 
   exportToCSV = () => {
-      this.doExport({});
+      this.doExport({format: "csv" });
   };
 
   async doExport(exportConfig) {
